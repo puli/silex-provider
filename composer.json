@@ -1,6 +1,6 @@
 {
     "name": "puli/silex-provider",
-    "description": "A Silex service provider for Puli.",
+    "description": "The Puli service provider for Silex.",
     "homepage": "http://puli.io",
     "license": "MIT",
     "authors": [
