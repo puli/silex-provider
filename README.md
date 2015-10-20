@@ -2,7 +2,7 @@ The Puli Service Provider for Silex
 ===================================
 
 [![Build Status](https://travis-ci.org/puli/silex-provider.svg?branch=master)](https://travis-ci.org/puli/silex-provider)
-[![Build status](https://ci.appveyor.com/api/projects/status/9fvu4aohrmdljdkf/branch/master?svg=true)](https://ci.appveyor.com/project/webmozart/silex-provider/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/yufuha6h89il7glj/branch/master?svg=true)](https://ci.appveyor.com/project/webmozart/silex-provider/branch/master)
 [![Build Status](https://scrutinizer-ci.com/g/puli/silex-provider/badges/build.png?b=master)](https://scrutinizer-ci.com/g/puli/silex-provider/build-status/master)
 [![Latest Stable Version](https://poser.pugx.org/puli/silex-provider/v/stable.svg)](https://packagist.org/packages/puli/silex-provider)
 [![Total Downloads](https://poser.pugx.org/puli/silex-provider/downloads.svg)](https://packagist.org/packages/puli/silex-provider)
