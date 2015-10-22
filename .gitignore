@@ -1,2 +1,4 @@
+/.puli/
 /vendor/
 composer.lock
+puli.json
