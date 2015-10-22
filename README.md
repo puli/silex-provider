@@ -14,6 +14,28 @@ PHP >= 5.3.9
 
 Integrates Puli with the [Silex microframework].
 
+Just register the service provider to your app:
+
+```php
+$app->register(new \Puli\SilexProvider\PuliServiceProvider());
+```
+
+This will give you the possibility to use the Puli paths instead of classic Twig paths:
+
+```php
+$this->get('/', function () use ($app) {
+    return $app['twig']->render('/app/views/index.html.twig');
+});
+```
+
+To disable the Twig integration, use:
+
+```php
+$app->register(new \Puli\SilexProvider\PuliServiceProvider(), array(
+    'puli.enable_twig' => false,
+));
+```
+
 Authors
 -------
 
@@ -23,7 +45,14 @@ Authors
 Installation
 ------------
 
+Install Silex using [Composer](http://getcomposer.org/).
 Follow the [Getting Started] guide to install Puli in your project.
+
+Finally install the PuliServiceProvider adding `puli/silex-provider` to your composer.json or from CLI:
+
+```
+$ composer require puli/silex-provider
+```
 
 Documentation
 -------------
