@@ -46,7 +46,7 @@ Installation
 ------------
 
 Install Silex using [Composer](http://getcomposer.org/).
-Follow the [Getting Started] guide to install Puli in your project.
+Follow the [Installation guide] guide to install Puli in your project.
 
 Finally install the PuliServiceProvider adding `puli/silex-provider` to your composer.json or from CLI:
 
@@ -82,8 +82,7 @@ All contents of this package are licensed under the [MIT license].
 [Puli]: http://puli.io
 [Bernhard Schussek]: http://webmozarts.com
 [The Community Contributors]: https://github.com/puli/silex-provider/graphs/contributors
-[Resource Discovery]: http://docs.puli.io/en/latest/silex-provider.html
-[Getting Started]: http://docs.puli.io/en/latest/getting-started.html
+[Installation guide]: http://docs.puli.io/en/latest/installation.html
 [Puli Documentation]: http://docs.puli.io/en/latest/index.html
 [issue tracker]: https://github.com/puli/issues/issues
 [Git repository]: https://github.com/puli/silex-provider
